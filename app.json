@@ -1,10 +1,9 @@
 {
   "pages": [
+    "pages/dailylist/dailylist",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/dai",
-    "pages/dailylist",
-    "pages/dailylist/dailylist"
+    "pages/dailydetail/dailydetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +14,7 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/dailylist/dailylist",
         "text": "首页"
       },
       {
@@ -28,5 +27,6 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }
