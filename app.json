@@ -11,18 +11,6 @@
     "navigationBarTitleText": "知乎日报",
     "navigationBarTextStyle": "black"
   },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/dailylist/dailylist",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
-      }
-    ]
-  },
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
